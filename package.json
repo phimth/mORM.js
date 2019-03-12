@@ -1,0 +1,26 @@
+{
+  "name": "mORM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phimth/mORM.js.git",
+  "author": "Thomas Phimanesone",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx babel-node src/main.js",
+    "build": "npx babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "kleur": "^3.0.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "pg": "^7.8.1"
+  }
+}
